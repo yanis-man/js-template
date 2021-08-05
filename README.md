@@ -1,4 +1,4 @@
-# jquery-template
+# js-template
  
 ### Usage
 
