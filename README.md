@@ -5,7 +5,7 @@
 This snippet only needs you to call the `replace` function with the required parameter.
 
 
-components.html
+welcomeTemplate.html
 ```html
 <p>Welcome {{username}}</p>
 ```
@@ -17,7 +17,7 @@ index.html
     <script type="module">
     import {replace} from './templater.js'
 
-    let welcomeMessage = await replace("example.html", {username:"Yanis"})
+    let welcomeMessage = await replace("welcomeTemplate.html", {username:"Yanis"})
     document.getElementById("dest").innerHTML = welcomeMessage
     </script>
     <div id="dest">
