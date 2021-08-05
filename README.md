@@ -25,3 +25,14 @@ index.html
     </div>
 </html>
 ```
+
+### Doc
+
+`replace`
+Params | Value | Ex.
+------------ | ------------- | -------------
+url | The path to the html file | 'component.html'
+data | An object used to replace the mustache tag by the value | {name:"MyName", ..}
+
+The tags needs to respect the following syntax such as 
+`{{name}}`
